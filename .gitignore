@@ -1,0 +1,69 @@
+# --- Node.js ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# --- Logs & temp ---
+*.log
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# --- Environment ---
+.env
+.env.local
+.env.development.local
+.env.production.local
+
+# --- Build / Cache ---
+dist/
+build/
+.cache/
+.tmp/
+
+# --- VSCode ---
+.vscode/
+.history/
+*.code-workspace
+
+# --- OS metadata ---
+Icon?
+ehthumbs.db
+Desktop.ini
+
+# --- Markdown preview cache ---
+.markdown-preview-enhanced/
+__MACOSX/
+
+# --- Local images / background / anime gifs ---
+.resources/bg/*.jpg
+.resources/bg/*.png
+.resources/bg/*.gif
+
+# --- Generated logs ---
+01-daily-log/*.md
+02-weekly-review/*.md
+
+# --- Backups & exports ---
+backup/
+export/
+archive/
+*.bak
+*.old
+
+# --- Ignore sensitive templates ---
+.resources/templates/*.private.md
+
+# --- Personal configuration ---
+user-settings.json
+notes.local.md
+
+# --- NPM / Yarn lock backup ---
+*.lock
+
+# ===========================================
+# ✅ End of .gitignore
+# ===========================================

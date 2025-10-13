@@ -1,0 +1,27 @@
+{
+    "scripts": {
+        "new:daily": "node createLog.js daily",
+        "new:weekly": "node createLog.js weekly"
+    },
+    "name": "kamalcodes-diary",
+    "version": "1.0.0",
+    "description": "A diary to follow my life as a full stack developer.",
+    "main": "createLog.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kamalc0des/kamalcodes-diary.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "module",
+    "bugs": {
+        "url": "https://github.com/kamalc0des/kamalcodes-diary/issues"
+    },
+    "homepage": "https://github.com/kamalc0des/kamalcodes-diary#readme",
+    "dependencies": {
+        "express": "^5.1.0",
+        "image-size": "^2.0.2",
+        "node-fetch": "^3.3.2"
+    }
+}

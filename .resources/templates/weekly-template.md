@@ -1,9 +1,13 @@
 
-<p align="center">
-  <img src="../resources/bg/daily-img-01.jpg" width="420" style="border-radius:12px; box-shadow:0 0 20px rgba(108,60,221,0.6);" />
-</p>
+<!-- <p align="center">
+  <img src="../.resources/bg/daily-img-01.jpg" width="420" style="border-radius:12px; box-shadow:0 0 20px rgba(108,60,221,0.6);" />
+</p> -->
 
-# 🗓️ Weekly Recap - WEEK 01
+![](http://localhost:3000/random-anime?seed={{seed}}&format=landscape)
+
+<!-- # 🗓️ Weekly Recap - WEEK 01 -->
+
+<p align="center" class="diaryTitle" style="font-style:italic; font-size:30px">🗓️ Weekly Recap</p>
 
 ---
 
@@ -72,4 +76,4 @@
 
 ---
 
-<small>✨ Logged from VSCode | Theme: Tokyo Vibes Journal | Week {{number}} ✨</small>
+<small>✨ Logged from VSCode | Theme: Tokyo Vibes Journal ✨</small>
