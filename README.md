@@ -91,46 +91,7 @@ This project uses **Markdown Preview Enhanced** to render beautifully styled Mar
 Then open:
 ```
 Ctrl + Shift + P → Markdown Preview Enhanced: Customize CSS
-```
-
-### Paste this custom CSS:
-```css
-body {
-  background-color: #0c111c !important;
-  color: #ffffff !important;
-  font-family: 'IBM Plex Mono', monospace;
-  line-height: 1.7;
-}
-
-h1, h2, h3, h4 {
-  font-family: 'Orbitron', 'Chakra Petch', sans-serif;
-  color: #b5a6ff !important;
-  text-shadow: 0 0 8px rgba(108, 60, 221, 0.6);
-}
-
-blockquote {
-  border-left: 4px solid #6c3cdd !important;
-  background-color: rgba(63, 92, 176, 0.15);
-  color: #93b4ff !important;
-  padding: 10px 15px;
-  border-radius: 8px;
-  font-style: italic;
-}
-
-code, pre {
-  background-color: #1a2235 !important;
-  color: #b5a6ff !important;
-  border-radius: 8px;
-  padding: 6px 10px;
-}
-
-a {
-  color: #93b4ff !important;
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: underline;
-}
+Copy/paste the content css file named: example-style.less.css
 ```
 
 ---
