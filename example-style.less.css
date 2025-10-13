@@ -1,0 +1,161 @@
+/* ===========================================
+   🏮 TOKYO VIBES JOURNAL THEME
+   =========================================== */
+
+/* --- Global layout --- */
+body {
+    background-color: #0c111c !important; /* deep night blue */
+    color: #e6e6e6 !important;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 15px;
+    line-height: 1.7;
+    letter-spacing: 0.3px;
+    padding: 40px;
+  }
+  
+  /* --- Headings --- */
+  h1, h2, h3, h4, h5, h6, .diaryTitle {
+    font-family: 'Orbitron', 'Chakra Petch', sans-serif;
+    color: #b5a6ff !important;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    margin-top: 1.4em;
+    margin-bottom: 0.6em;
+  }
+  
+  /* --- Subtle glow effect --- */
+  h1, h2, .diaryTitle {
+    text-shadow: 0 0 8px rgba(108, 60, 221, 0.6);
+  }
+  
+  /* --- Paragraphs and lists --- */
+  p, li, em, strong {
+    color: #ffffff !important;
+  }
+  
+  /* --- Blockquotes (Tokyo Glass Effect — Dark Base) --- */
+  blockquote {
+    position: relative;
+    border-left: 4px solid #6c3cdd !important;
+    background: rgba(15, 18, 35, 0.55) !important; /* darker + more opaque base */
+    color: #f8f8ff !important; /* bright soft white text */
+    padding: 14px 18px;
+    margin: 24px 0;
+    border-radius: 10px;
+    font-style: italic;
+    backdrop-filter: blur(8px) saturate(160%);
+    -webkit-backdrop-filter: blur(8px) saturate(160%);
+    box-shadow: 0 0 15px rgba(108, 60, 221, 0.25);
+    transition: all 0.3s ease;
+  }
+  
+  blockquote::before {
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    font-size: 2rem;
+    color: rgba(108, 60, 221, 0.5);
+    pointer-events: none;
+  }
+  
+  blockquote:hover {
+    box-shadow: 0 0 25px rgba(108, 60, 221, 0.4);
+    transform: translateY(-2px);
+  }
+  
+  /* --- Inline code & code blocks --- */
+  code, pre {
+    background-color: #1a2235 !important;
+    color: #b5a6ff !important;
+    border-radius: 8px;
+    padding: 6px 10px;
+    font-size: 0.9rem;
+    font-family: 'IBM Plex Mono', monospace;
+    box-shadow: 0 0 8px rgba(108, 60, 221, 0.2);
+  }
+  
+  /* --- Links --- */
+  a {
+    color: #93b4ff !important;
+    text-decoration: none;
+    transition: all 0.2s ease;
+  }
+  a:hover {
+    color: #6c3cdd !important;
+    text-shadow: 0 0 8px rgba(181,166,255,0.6);
+  }
+  
+  /* --- Horizontal rule --- */
+  hr {
+    border: none;
+    height: 1px;
+    background: linear-gradient(90deg, #3f5cb0, #6c3cdd, #b5a6ff);
+    margin: 2em 0;
+  }
+  
+  /* --- Tables --- */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th, td {
+    border: 1px solid #3f5cb0;
+    padding: 8px;
+    color: #ffffff;
+  }
+  th {
+    background-color: rgba(63, 92, 176, 0.25);
+  }
+  
+  /* --- Images --- */
+  img {
+    border-radius: 10px;
+    display: block;
+    margin: 20px auto;
+    box-shadow: 0 0 15px rgba(108, 60, 221, 0.4);
+  }
+  
+  /* --- Checkboxes --- */
+  input[type=checkbox] {
+    accent-color: #6c3cdd;
+  }
+  
+  /* --- Custom small text --- */
+  small {
+    color: #93b4ff;
+    font-size: 0.8rem;
+  }
+  
+  /* --- Table --- */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  th {
+    color: #b5a6ff !important;
+    background-color: rgba(63, 92, 176, 0.2);
+    text-transform: uppercase;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 0.05em;
+  }
+  
+  td {
+    color: #ffffff !important;
+    background-color: rgba(15, 20, 35, 0.4);
+    border-bottom: 1px solid rgba(63, 92, 176, 0.2);
+  }
+  
+  tr:hover td {
+    background-color: rgba(108, 60, 221, 0.15);
+    transition: background-color 0.3s ease;
+  }
+  
+  
+  /* ===========================================
+     🏮 END TOKYO VIBES JOURNAL THEME
+     =========================================== */
