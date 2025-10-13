@@ -157,9 +157,7 @@ Your `createLog.js` automatically creates and fills Markdown files from template
 ### Dynamic Variables
 | Variable | Description |
 |-----------|--------------|
-| `{{date}}` | Current date |
-| `{{week}}` | Week number |
-| `{{year}}` | Current year |
+| `format` | Format of GIF, not required (landscape, portrait) |
 | `{{seed}}` | Random ID for unique GIF URL |
 
 ### Usage
@@ -223,7 +221,7 @@ node createLog.js weekly
 ---
 
 ### 🧠 Author
-**@ykamalcodes**  
+**@kamalc0des**  
 > *Build. Reflect. Improve.*  
 > *The Tokyo Vibes Journal — a developer’s mindful workspace.*
 
