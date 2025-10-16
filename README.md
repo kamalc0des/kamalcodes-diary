@@ -77,6 +77,8 @@ node proxy.js
 node createLog.js daily
 # or
 node createLog.js weekly
+# or
+node createLog.js project
 ```
 
 ---
@@ -164,34 +166,7 @@ Your `createLog.js` automatically creates and fills Markdown files from template
 ```bash
 node createLog.js daily
 node createLog.js weekly
-```
-
----
-
-## 🪄 Usage Examples
-
-### 🗓️ Daily Log
-```markdown
-# ☀️ Daily Log – {{date}}
-
-![](http://localhost:3000/random-anime?seed={{seed}}&format=portrait)
-
-## 🌅 Morning Plan
-- [ ] Refactor auth module
-- [ ] Debug SSR rendering
-- [ ] Read about Spring Security
-```
-
-### 📆 Weekly Recap
-```markdown
-# 🗓️ Weekly Recap – Week {{week}} / {{year}}
-
-![](http://localhost:3000/random-anime?seed={{seed}}&format=landscape)
-
-## 🧩 Highlights
-- 🚀 Launched new dashboard
-- 🧠 Learned JWT with Spring Boot
-- 💬 Shared open-source snippet
+node createLog.js project
 ```
 
 ---
@@ -204,19 +179,6 @@ node createLog.js weekly
 | **Fonts** | IBM Plex Mono, Orbitron, Chakra Petch |
 | **Visuals** | SFW anime GIFs via local proxy |
 | **Mode** | Markdown Preview Enhanced |
-
----
-
-## ✅ Quick Summary
-
-| Component | Description |
-|------------|-------------|
-| **Theme** | Custom Tokyo Vibes CSS |
-| **Proxy** | Multi-source anime GIF fetcher |
-| **Scripts** | Automatic daily & weekly generation |
-| **Fonts** | IBM Plex Mono, Orbitron, Chakra Petch |
-| **Cache** | Disabled (timestamped redirects) |
-| **Formats** | Portrait / Landscape / Any |
 
 ---
 
