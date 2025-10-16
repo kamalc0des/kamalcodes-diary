@@ -1,11 +1,5 @@
 
-<!-- <p align="center">
-  <img src="../.resources/bg/daily-img-01.jpg" width="420" style="border-radius:12px; box-shadow:0 0 20px rgba(108,60,221,0.6);" />
-</p> -->
-
 ![](http://localhost:3000/random-anime?seed={{seed}}&format=landscape)
-
-<!-- # 🗓️ Weekly Recap - WEEK 01 -->
 
 <p align="center" class="diaryTitle" style="font-style:italic; font-size:30px">🗓️ Weekly Recap</p>
 
@@ -75,5 +69,4 @@
 - [ ] Read one chapter of *The Pragmatic Programmer*  
 
 ---
-
-<small>✨ Logged from VSCode | Theme: Tokyo Vibes Journal ✨</small>
+<p align="center" style="font-style:italic; font-size:12px">✨ Logged from VSCode | Theme: Tokyo Vibes Journal ✨</p>

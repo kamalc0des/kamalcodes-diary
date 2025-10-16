@@ -1,42 +1,54 @@
-<!-- <p align="center">
-  <img src="../.resources/bg/daily-img-01.jpg" width="" style="border-radius:10px" />
-</p> -->
-
 ![](http://localhost:3000/random-anime?seed={{seed}}&format=landscape)
 
-<p align="center" style="font-style:italic; font-size:12px">Remember: problems comes to your life but they will not stay...</p>
+<p align="center" style="font-style:italic; font-size:12px">
+  "{{quote}}"
+</p>
 
-<p align="center" class="diaryTitle" style="font-style:italic; font-size:30px">✍️ Daily Dev Log</p>
-
-## Today Plan & Priorities
-
-**HIGH PRIORITY**
-  - [ ] 
-  - [ ] 
-  - [ ] 
-  - [ ] 
-**PROJECT**
-  - [ ] 
-  - [ ] 
-  - [ ] 
-  - [ ] 
-**Energy Level:** 00/10 ⚡️
+<p align="center" class="diaryTitle" style="font-style:italic; font-size:30px">
+  ✍️ Daily Dev Log – {{date}}
+</p>
 
 ---
 
-## What I have done Today
+## 🌅 Morning Plan & Priorities
 
-#### Code
+**HIGH PRIORITY**
+  - [ ] {{priority_1}}
+  - [ ] {{priority_2}}
+  - [ ] {{priority_3}}
+  
+**PROJECT**
+  - [ ] {{project_1}}
+  - [ ] {{project_2}}
+  - [ ] {{project_3}}
 
-#### Others
+**Energy Level:** {{energy}}/10 ⚡️  
+**Mood:** {{mood}} 😌  
 
+---
+
+## 🧠 What I Worked On
+
+#### 💻 Code
+- {{code_task_1}}
+- {{code_task_2}}
+
+#### 🧩 Others
+- {{other_task_1}}
+- {{other_task_2}}
+
+---
 
 ## 🪞 Reflections
 
-#### 💡 Key breakthrough:
-
+#### 💡 Key breakthrough
+> {{breakthrough}}
 
 #### ⚠️ What didn’t go well
-
+> {{problem}}
 
 #### 🚀 Next step for tomorrow
+> {{next_step}}
+
+---
+<p align="center" style="font-style:italic; font-size:12px">✨ Logged from VSCode | Theme: Tokyo Vibes Journal ✨</p>
